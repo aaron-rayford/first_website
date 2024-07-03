@@ -1,0 +1,154 @@
+:root{
+    --clr-primary: #ffda83;
+    --clr-secondary: #89CFF0; 
+    --clr-third: #d8d8d8; 
+    --clr-fourth: #E6E6FA; 
+    --clr-fifth: #FF7F50; 
+    --txt-clrp: black; 
+    --txt-clrs: white; 
+    --ff-primary: 'Urbanist', sans-serif;
+    --ff-secondary: 'Raleway', sans-serif;
+}
+
+
+
+h1{
+    font-family: var(--ff-primary);
+    font-weight: 200;
+    font-size: 100pt;
+}
+
+body{
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--txt-clrs);
+}
+
+.beginning{
+    align-self: center;
+    text-align: center;
+
+}
+
+#nameTitle{
+    margin: 5px;
+}
+
+
+#namedescription{
+    font-family: var(--ff-primary);
+    font-size: 20pt;
+    font-weight: 200;
+    color: var(--clr-primary);
+    margin-bottom: 50px;
+
+}
+
+.photoText{
+
+  display:flex;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 50px;
+}
+
+#self{
+display: block;
+width: 50%;
+float: left;
+}
+#selfText{
+    display: block;
+    width: 50%;
+    float: right;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25pt;
+    font-family: var(--ff-secondary);
+    font-weight: 300;
+    padding: left 75px right 75px;
+}
+
+.myself {
+
+display: flex;
+background-color: var(--clr-primary);
+
+}
+
+.myselfBox {
+
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.myselfBox img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.myselfBox h3{
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 20pt;
+    color: black;
+
+}
+
+
+.myselfBox p{
+    font-family: var(--ff-secondary);    
+    font-weight: 400;
+    color: var(--txt-clrs);
+}
+
+.quote{
+display: flex;
+flex-direction: column;
+background-color: var(--clr-fourth);
+text-align: center;
+}
+
+.quote h3{
+
+font-family: var(--ff-primary);
+color: var(--clr-fifth);
+font-size: 50pt;
+padding-bottom: 15pt;
+}
+
+.quote h5{
+font-family: var(--ff-primary);
+color: var(--clr-fifth);
+font-size: 25pt;
+}
+
+footer{
+background-color: var(--clr-fifth);
+padding: 20px;
+text-align: center;
+
+}
+
+.footer-content {
+
+color: var(--clr-third);
+
+
+}
+
+
+.footer-content a{
+
+color: var(--clr-third);
+text-decoration: none;
+
+}
+
+.footer-content a:hover {
+
+text-decoration: underline;
+
+}
